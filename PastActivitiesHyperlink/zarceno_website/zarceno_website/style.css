@@ -1,0 +1,53 @@
+﻿body{
+    font-family:Arial;
+    background-color: #eeeeee;
+}
+.page{
+    background-color: white;
+    margin:100px;
+    display:flex;
+}
+.header{
+    padding:20px;
+    background-color:#16325B;
+    color: white;
+    text-align: center;
+}
+.hyperlinks {
+    padding: 20px;
+    text-align: center;
+}
+.Main{
+    text-align: center;
+    width: 100%;
+}
+.tagline{
+    margin: 20px;
+    padding:20px;
+    border: 2px solid #16325B;
+    background-color: lightblue;
+    text-align:center;
+
+}
+.index {
+    text-align: center;
+    padding: 20px;
+    justify-content:center;
+    align-content: center;
+}
+footer{
+    text-align: center;
+    display: block;
+    padding: 20px;
+    justify-content: center;
+    align-content: center;
+    background-color:#16325B;
+    margin: 100px;
+    color:white;
+}
+.aboutmecontent{
+    text-align:left;
+}
+h2{
+    color:#16325B
+}

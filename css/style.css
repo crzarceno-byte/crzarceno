@@ -1,0 +1,437 @@
+.sitenav a {
+    text-decoration: none;
+    color: #9a2f2c;
+}
+.sitenav a:hover {
+    color: #f87721;
+}
+body {
+    margin: 0;
+    background: #f5f0ed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btnarea {
+    display:flex;
+    justify-content: center;
+}
+#btn {
+    font-size: 20px;
+}
+.siteheader {
+    background-color: #9a2f2c;
+    text-align: center;
+}
+.siteheader p {
+    padding: 0px 0px 15px 0px;
+    color: #f5eded;
+    margin:0%;
+}
+.siteheader .intro {
+    padding: 20px 0px 0px 0px;
+    color: #f5eded;
+}
+.sitenav {
+    padding: 5px 5px 10px 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #e2af70;
+    margin: 0%;
+    color: #9a2f2c;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.siteheader h1 {
+    padding: 10px 10px 0px 8px;
+    color: #ffa434;
+}
+.quote {
+    text-align: center;
+    margin: 0px 20px 20px 20px;
+    background-color: #e2af70;
+    border-radius: 10px 10px 10px 10px;
+    overflow:hidden;
+    border: 1px solid #9a2f2c;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+.quote h1 {
+    color: #9a2f2c;
+}
+.quote-content {
+    background-color:#f5eded;
+}
+.quote-content p {
+    padding: 25px 10px 20px 25px;
+    font-style:italic;  
+}
+.quoteimg {
+    margin-bottom: 25px;
+    border-radius: 10px;
+    overflow:hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);
+    width: 350px;
+    
+}
+.gif {
+    display:block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.paragraph{
+    text-align: center;
+    margin: 0px 20px 20px 20px;
+    display:flex;
+    background-color: #9a2f2c;
+    border-radius: 10px 10px 10px 10px;
+    color:#f5eded;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+footer{
+    background-color: #9a2f2c;
+    padding: 8px;
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+    font-size: 12px;
+    color:#f5eded;
+}
+.overview {
+    display:grid; grid-template-columns: 1fr; row-gap: 14px;
+    text-align: center;
+    margin:2%;
+    border-radius: 10px;
+    padding: 30px 0px 0px 0px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    background-color: #9a2f2c;
+}
+.works {
+    padding: 15px;
+}
+.sampleintro {
+    text-align:center;
+    color:#9a2f2c;
+}
+.overview h1 {
+    color:#ffa434;
+}
+.overview p {
+    padding: 0px 9px 0px 9px;
+    color:#f5eded;
+}
+.overview h3 {
+    color:#ffa434;
+}
+.works{
+    padding: 0px 0px 10px 0px;
+}
+.workimg img {
+    height:300px;
+    border-radius: 10px;
+}
+
+/* ABOUT ME EXCLUSIVE CSS PAGE*/
+.container {
+    margin: 10px;
+    padding: 10px;
+    display:grid; grid-template-columns: 1fr; gap: 14px;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+    background-color:#9a2f2c;
+    gap: 10px;
+    border-radius: 10px;
+    overflow:hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+.portraitimg {
+    height: 300px;
+    border-radius:10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    display:block;
+    margin:auto;
+}
+.sidetext {
+    background-color:#f5eded;
+    border-radius: 10px;
+}
+.Interests {
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffa434;
+}
+.interestscontent p {
+    color:#f5eded;
+}
+.Interests h3 {
+    color:#9a2f2c;
+}
+.interestscontent{
+    text-align:center;
+    display:grid; grid-template-columns: 1fr; gap: 14px; 
+    background-color: #9a2f2c;
+    margin: 2%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+.interestscontent p {
+    padding: 10px;
+}
+.hobby {
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.digitalartimg{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+    /*PERSONAL PROJECTS PAGE*/
+    .ProjectGrid {
+        display:grid;
+        grid-template-columns: 1fr; gap: 20px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+}
+.workintro {
+    text-align: center;
+    background-color: #9a2f2c;
+    padding-top: 10px;
+}
+.workintro h1 {
+    padding: 0;
+    color: #ffa434;
+}
+.workintro p {
+    padding: 10px;
+    color:#f5eded;
+    padding-bottom: 15px;
+}
+.PersonalProject {
+    background-color: #9a2f2c;
+    margin: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.PersonalProject img {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+.PersonalProject p {
+    color: #f5eded;
+    padding: 20px;
+}
+.projectintrogif {
+    display:flex;
+    justify-content: center;
+    gap:60px;
+    padding:20px;
+}
+        /* COURSE WORK PAGE*/
+.courseworkintro {
+    text-align: center;
+    background-color: #9a2f2c;
+    padding-top: 10px;
+}
+.courseworkintro h1{
+    color: #ffa434;
+}
+.courseworkintro p {
+    padding: 10px;
+    color:#f5eded
+}
+.courseworkarea {
+    display:grid;
+    grid-template-columns: 1fr; 
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+.courseworkarea img {
+    height:150px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+.courseworkarea img:hover{
+    opacity: 0.5;
+}
+.courseworks p {
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color:#f5eded;
+}
+.courseworks {
+    background-color: #9a2f2c;
+    border-radius: 20px;
+}
+.courseworks h3 {
+    color: #ffa434;
+}
+        /*CONTACT PAGE*/
+.maincontactpage {
+    text-align: center;
+    display:grid; 
+    grid-template-columns: 1fr;
+    background-color: #d55a55;
+    margin: 5%;
+    border-radius: 25px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5)
+}
+.textarea p {
+    color: #f5eded;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+}
+.textarea h3 {
+    color:#ffa434
+}
+.msg {
+    width: 500px;
+}
+.contactarea {
+    color: #f5eded;
+    margin: 50px;
+}
+#msg {
+    height:100px;
+    width: 300px;
+}
+
+    
+
+                    /* TABLET */
+        @media (min-width: 768px) {
+            .sitenav{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+        }
+            .sitenav a{
+                font-size: 18px;
+            }
+            .gif {
+                display:flex;
+                justify-content: center;
+                gap: 100px;
+            }
+            .quote h1 {
+                font-size: 40px;
+            }
+            .quote p {
+                font-size: 18px;
+            }
+            .quoteimg {
+                width: 400px;
+            }
+            .paragraph {
+                padding:10px;
+            }
+            .overview {
+                display:grid; grid-template-columns: 1fr 1fr; row-gap: 14px;
+            }
+            .interestscontent{
+                display:grid; grid-template-columns: 2fr;
+                margin-left: 60px;
+                margin-right: 60px;
+            }
+            .interestscontent p {
+                padding-inline: 30px;
+            }
+            .Interests {
+                font-size: 20px;
+            }
+                .ProjectGrid {
+        display:grid;
+        grid-template-columns: 1fr 1fr; gap: 20px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+}
+            .PersonalProject {
+            background-color: #9a2f2c;
+            margin: 5px;
+            padding-top: 30px;
+            border-radius: 10px;
+}
+            .projectintrogif {
+    display:flex;
+    justify-content: center;
+    gap:200px;
+    padding:30px;
+}
+            .courseworkarea {
+                display:grid;
+                grid-template-columns: 1fr 1fr; gap: 20px;
+            }
+    }
+        /* DESKTOP */
+        @media (min-width: 1024px) {
+            .sitenav{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+            .sitenav a{
+                font-size: 20px;
+            }
+             .gif {
+                display:flex;
+                justify-content: center;
+                gap: 200px;
+            }
+            .quote h1 {
+                font-size: 50px;
+            }
+            .quoteimg {
+                width: 450px;
+            }
+            .paragraph {
+                padding: 15px;
+            }
+            .overview {
+                display:grid; grid-template-columns: 1fr 1fr; row-gap: 14px;
+
+            }
+             .interestscontent{
+                display:grid; grid-template-columns: 2fr;
+                margin-left: 60px;
+                margin-right: 60px;
+            }
+            .interestscontent p {
+                padding-inline: 100px;
+            }
+            .Interests {
+                font-size: 25px;
+            }
+            .ProjectGrid {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr; gap: 10px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+}
+            .PersonalProject {
+        background-color: #9a2f2c;
+        margin: 5px;
+        padding-top: 50px;
+        border-radius: 10px;
+}
+            .projectintrogif {
+        display:flex;
+        justify-content: center;
+        gap:350px;
+        padding:30px;
+}
+            .courseworkarea {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr; gap: 20px;
+            }
+            
+        }
